@@ -4,7 +4,7 @@
 
 LastRound records every game you play on Windows, automatically: it starts when your game
 starts, and when you quit, the match is waiting in your library, compressed and named. It can
-also cut your loudest moments into 9:16 clips with captions, ready for Shorts and TikTok.
+also cut your loudest moments into 9:16 clips, ready for Shorts and TikTok.
 
 ## Download
 
@@ -24,8 +24,6 @@ Windows, and records to `Videos\LastRound`.
 - Windows 10 (version 1903) or Windows 11, 64-bit
 - A GPU with a hardware video encoder (NVIDIA, AMD or Intel) for the smallest files; without one,
   recordings are kept as H.264
-- Captions on clips need Python with [faster-whisper](https://github.com/SYSTRAN/faster-whisper);
-  without it, clips are made without captions
 
 ## Why LastRound
 
