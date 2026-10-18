@@ -10,6 +10,7 @@ also cut your loudest moments into 9:16 clips, ready for Shorts and TikTok.
 
 **[Download LastRound for Windows](https://github.com/FauziFuzzy/LastRoundRelease/releases/latest/download/LastRound-Setup.exe)**
 (always the newest version) - or pick a version from [Releases](https://github.com/FauziFuzzy/LastRoundRelease/releases).
+What's new: [CHANGELOG](CHANGELOG.md).
 
 Run `LastRound-Setup.exe`. It installs for your user only (no admin prompt), can start with
 Windows, and records to `Videos\LastRound`.
