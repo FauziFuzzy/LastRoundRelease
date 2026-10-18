@@ -4,7 +4,7 @@ What changed in each version of LastRound. To update, use the Update button in t
 (from 1.0.4), or download the newest `LastRound-Setup.exe` and run it over your current
 version; your settings and recordings are kept.
 
-## 1.0.4 - not released yet
+## 1.0.4 - 2026-10-19
 
 - **Update button.** The dashboard tells you when a new version is out (sidebar icon and
   Settings > Updates) and installs it in one click: it downloads the installer, checks it
