@@ -25,6 +25,10 @@ Windows, and records to `Videos\LastRound`.
 - A GPU with a hardware video encoder (NVIDIA, AMD or Intel) for the smallest files; without one,
   recordings are kept as H.264
 
+Recordings play in any player, including Windows Media Player: LastRound saves the smallest
+format (HEVC) only on PCs that can play it, and H.264 otherwise. Settings > Video format lets you
+choose.
+
 ## Why LastRound
 
 Measured recording the same 60 seconds of a Dota 2 match at 1080p (one NVIDIA PC):
