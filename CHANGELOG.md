@@ -4,6 +4,11 @@ What changed in each version of LastRound. To update, use the Update button in t
 (from 1.0.4), or download the newest `LastRound-Setup.exe` and run it over your current
 version; your settings and recordings are kept.
 
+## 1.0.6 - 2026-10-19
+
+- **Fixed:** Settings > Change... closed LastRound's dashboard instead of opening the folder
+  picker (1.0.5).
+
 ## 1.0.5 - 2026-10-19
 
 - **Discord size.** A Discord button on every clip (and on recordings up to 2 minutes) makes a
