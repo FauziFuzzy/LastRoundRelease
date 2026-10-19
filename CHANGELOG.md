@@ -4,6 +4,29 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.0 - 2026-10-20
+
+- **Save the last 30 seconds: F8.** While a game records, press F8 (or "Save last 30 s" on the
+  Record page) and the last 30 seconds go straight into Clips as a lossless copy, tagged SAVED.
+  Postmatch only notices the key - your game still gets it.
+- **Mark a moment: F9.** A gold tick on the match's timeline where you pressed it.
+- **Match timeline.** Every new match shows the game sound's loudness over the whole match, with
+  your marks in gold and its clips as dots. Make clips also gets faster: it uses the loudness
+  measured while recording instead of reading the whole match again.
+- **Live recording view.** The Record page shows what's being recorded (a picture every 3 s) and
+  live numbers: frames per second, skipped frames, file size so far, bitrate and a sound meter.
+- **Hotkeys in Settings.** Pick other keys, or turn them off, and how much "save" keeps (15 s to 2 min).
+- **Always records on the graphics card.** Postmatch now picks the GPU with a hardware video
+  encoder itself - on gaming laptops the NVIDIA/AMD chip, not the built-in one - instead of
+  Windows' default, which could leave the CPU encoding. The Record page shows "GPU", and warns if a
+  PC has no GPU encoder at all. Clips use the GPU through Windows' own encoder too.
+- **Lighter live preview.** The preview picture is only made while the Record page is open.
+- **Compressing after a match barely touches the CPU.** It now decodes on the graphics card too,
+  so the video never leaves the GPU: about a twelfth of the CPU it used (it could keep 4 cores busy
+  before). Compressing and making clips also run at low priority, so a game always comes first.
+- **Cancel compressing.** A match that's "getting ready" has a Cancel button: compressing stops
+  and the recording is kept as recorded (bigger, but ready right away).
+
 ## 1.1.0 - 2026-10-19
 
 - **LastRound is now Postmatch.** New name and a new logo: an 8-bit P with a play button in
