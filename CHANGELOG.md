@@ -4,6 +4,19 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.2 - 2026-10-20
+
+- **Recording adapts to your PC by itself.** Frame rate is now Automatic: Postmatch watches
+  how busy the CPU, GPU and memory are, and while a game maxes your PC out it records a new
+  picture every other frame (light mode) so the game stays smooth, then goes back to full 60 when
+  things calm down. The Record page shows "Light mode · PC busy" meanwhile. Always 60 or always
+  30 fps can still be picked in Settings.
+- **Lighter recording of fast games.** A game running faster than 60 fps (150+ with frame
+  generation) no longer has every frame copied - only the ones the recording uses.
+- **The game draws first.** The recorder's GPU work runs at lower priority than the game, and
+  holds fewer frames in video memory.
+- **Fixed: compressing to H.264 could drop a few frames** (6 in 2400 in a test).
+
 ## 1.2.1 - 2026-10-20
 
 - **Fixed: Send logs made a zip that looked empty** in Explorer. It now also includes the
