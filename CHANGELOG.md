@@ -4,6 +4,17 @@ What changed in each version of LastRound. To update, use the Update button in t
 (from 1.0.4), or download the newest `LastRound-Setup.exe` and run it over your current
 version; your settings and recordings are kept.
 
+## 1.0.5 - 2026-10-19
+
+- **Discord size.** A Discord button on every clip (and on recordings up to 2 minutes) makes a
+  copy under Discord's 10 MB upload limit and shows it in Explorer, ready to drag into a chat.
+  A 45-second clip comes out around 9 MB in a few seconds.
+- **Send logs.** Settings > Send logs saves LastRound's logs and your PC's details (Windows
+  version, graphics encoders, microphones, settings) in one zip to send to whoever helps you.
+  Nothing is uploaded.
+- **Choose the recordings folder with a button.** Settings > Change... opens Windows' folder
+  picker instead of typing a path.
+
 ## 1.0.4 - 2026-10-19
 
 - **Update button.** The dashboard tells you when a new version is out (sidebar icon and
