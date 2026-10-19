@@ -4,6 +4,15 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.1 - 2026-10-20
+
+- **Fixed: Send logs made a zip that looked empty** in Explorer. It now also includes the
+  watcher's own log and the PC's CPU, memory and graphics cards with their driver versions.
+- **Capture setting.** Settings > Disk and capture: Automatic (the game's window on Windows 11,
+  the screen on Windows 10), Game window, or Screen - to compare if recording feels heavy.
+- **Lighter capture.** The recorder reuses its picture buffers instead of making a new one for
+  every frame.
+
 ## 1.2.0 - 2026-10-20
 
 - **Save the last 30 seconds: F8.** While a game records, press F8 (or "Save last 30 s" on the
