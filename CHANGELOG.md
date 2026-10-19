@@ -1,8 +1,35 @@
 # Changelog
 
-What changed in each version of LastRound. To update, use the Update button in the dashboard
-(from 1.0.4), or download the newest `LastRound-Setup.exe` and run it over your current
-version; your settings and recordings are kept.
+What changed in each version of Postmatch (called LastRound up to 1.0.6). To update, use the
+Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
+your current version; your settings and recordings are kept.
+
+## 1.1.0 - 2026-10-19
+
+- **LastRound is now Postmatch.** New name and a new logo: an 8-bit P with a play button in
+  purple and cyan. Installing Postmatch replaces LastRound: it stops it, removes its program
+  folder and shortcuts, and brings your settings, games, logs and thumbnails over on the first
+  start. Your recordings are not moved: if you never picked a recordings folder, Postmatch keeps
+  recording into `Videos\LastRound` so everything you have still shows in the dashboard.
+- **Updating from LastRound works as usual.** LastRound's Update button (1.0.4 and later) offers
+  this version and installs Postmatch over it in one click. The releases now live at
+  `FauziFuzzy/PostmatchRelease`; old LastRound links still lead there.
+- **A new dashboard.** A fresh look throughout, and the window opens at a comfortable size.
+  New **Record** page: the live recording, today's matches and your capture settings at a glance.
+- **Matches, side by side.** Your matches on the left, grouped by day; click one to see it on
+  the right with Review, Make clips and Discord, plus every clip made from it. Clicking a match
+  responds straight away. With more than five games, the game chips become one Game menu with
+  a count per game.
+- **Clips as a list.** One row per clip with its game, length, size and date, and its own
+  Delete button. Tick several to make Discord copies or move them to the Recycle Bin together.
+  Search and sort work on Clips too.
+- **Game icons.** Every game shows its own icon, taken from the game's program file (or Steam's
+  icon when the program has none). Pick your own picture for a game in Settings > Games.
+- **Setup when you first install.** Five quick steps: your games (Postmatch scans your PC for
+  installed ones), your microphone, video quality, which drive to record to, and a summary.
+- **Settings, redesigned** into clear sections, with the recordings folder picked by button.
+- **Coming soon, marked as such:** match results (win/loss, K/D/A), auto-clipped moments,
+  hotkeys, team review and public clip links show in the app with a "Soon" tag.
 
 ## 1.0.6 - 2026-10-19
 
