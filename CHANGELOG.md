@@ -4,6 +4,14 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.3 - 2026-10-20
+
+- **Fixed: recordings looked like 30 fps** with Frame rate on Automatic. Light mode went on
+  whenever a game pushed the CPU or GPU past 90% - which is normal for any game running as fast
+  as it can - and could stay on for most of a match. It now only goes light when memory is nearly
+  full (94%+, when Windows starts swapping and games stutter), and comes back as soon as memory
+  frees up.
+
 ## 1.2.2 - 2026-10-20
 
 - **Recording adapts to your PC by itself.** Frame rate is now Automatic: Postmatch watches
