@@ -4,6 +4,12 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.4 - 2026-10-20
+
+- **No more live preview picture** on the Record page. The recorder no longer copies a picture
+  back from the graphics card for it, and holds one frame fewer in video memory. The live
+  numbers (frames per second, file size, bitrate, sound meter) stay.
+
 ## 1.2.3 - 2026-10-20
 
 - **Fixed: recordings looked like 30 fps** with Frame rate on Automatic. Light mode went on
