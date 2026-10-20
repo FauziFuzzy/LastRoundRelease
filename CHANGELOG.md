@@ -4,6 +4,13 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.5 - 2026-10-21
+
+- **Games running faster than 120 fps keep more of their fps.** Windows used to copy every
+  frame a game drew for the recorder, which only keeps 60 a second - at 600 fps in Valorant
+  that was ~540 copies a second thrown away, and cost the game ~100 fps. The recorder now takes
+  at most 120 pictures a second, in window and screen capture alike.
+
 ## 1.2.4 - 2026-10-20
 
 - **No more live preview picture** on the Record page. The recorder no longer copies a picture
