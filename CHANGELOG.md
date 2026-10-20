@@ -4,6 +4,31 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.6 - 2026-10-21
+
+- **Fixed: your voice was missing when playing a recording.** The game sound and your mic were
+  recorded as two tracks, and players (and clips) only played the first. After each match they
+  are now one track, game and mic together, with a quiet mic raised (up to 12 dB) so your voice
+  is clear over the game. Clips, saved moments (F8) and Discord copies have your voice too.
+- **Every game records at 60 fps, the whole match.** No more light mode switching to 30 by
+  itself when memory was nearly full. Settings > Frame rate: 60 fps (the default) or 30 fps,
+  your choice.
+- **Quality picked for your PC.** Setup checks your graphics card and memory and suggests a
+  quality: High (your game's resolution, 25 Mbps) for a gaming card with 16 GB or more,
+  Balanced (up to 1080p, 16 Mbps) for less memory or an entry-level card, Light (up to 720p,
+  10 Mbps) for built-in graphics or a PC without a graphics-card encoder. The picture is scaled
+  down on the graphics card. Settings > Quality: Automatic, or any of the three.
+- **Stats is a ranked career now.** Every minute you record earns 1 RP and climbs you through
+  seven ranks, Rookie to Immortal, each with divisions III, II and I. The page shows your
+  rating and rank, how it climbed this week or season, your top games and your streak.
+- **Settings, redesigned.** Sections down the left (Recording, Audio, Hotkeys, Games, Storage,
+  Advanced, About), one row per setting, and changes save by themselves.
+- **Setup's last step has a little pixel gamer** ready to go. Setup also keeps your recordings
+  folder when you look at another drive and come back.
+- **The game filter no longer gets cut off.** When the game chips don't fit across Matches or
+  Clips, they become one Game menu.
+- The Game and sort menus' highlight now has rounded corners like the buttons.
+
 ## 1.2.5 - 2026-10-21
 
 - **Games running faster than 120 fps keep more of their fps.** Windows used to copy every
