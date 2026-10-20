@@ -4,6 +4,11 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.7 - 2026-10-21
+
+- **Fixed: "Getting it ready" ran past the thumbnail** in a narrow window. A small thumbnail
+  now says "Getting ready..." on one line.
+
 ## 1.2.6 - 2026-10-21
 
 - **Fixed: your voice was missing when playing a recording.** The game sound and your mic were
