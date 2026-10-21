@@ -4,6 +4,37 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.10 - 2026-10-22
+
+- **Sign in with Google or Discord.** A new account screen, over a slowly drifting wall of game
+  art, opens once before setup on a new install and any time from Settings > Account. Continue
+  with Google or Discord opens your browser, and Postmatch comes back to the front once you're
+  signed in; you stay signed in until you sign out in Settings > Account. Your rank on every PC,
+  Team review and clip links will use it. "Continue without an account" makes a guest account
+  instead; signing in later keeps it.
+- **Post clips to Discord by themselves.** Paste a channel's webhook in Settings > Discord
+  (Server Settings > Integrations > Webhooks > Copy Webhook URL) and turn on "Post new clips
+  automatically": every clip you make and every moment you save with F8 goes to that channel
+  once your match has ended, with the game and match it's from - as a copy Discord plays right
+  in the chat. Any clip also has Share > Post to Discord, with its progress on the clip's row.
+  Each post reads "**Fuzzy** shared a clip from BF6 | Recorded with #Postmatch" (your name in
+  posts is in Settings > Discord), then the video, then a Postmatch card with the clip, the match it's from and its
+  length. Send logs leaves the webhook out.
+- **Trim a match.** A match's new Trim button (or "Trim or share a part..." in its menu) opens
+  a filmstrip editor, on your first F9 mark (or the loudest moment). A big picture shows the
+  playhead; below it, a strip of pictures with the match's sound and your marks, where purple
+  handles set the part - click to move the playhead, scroll to zoom out to the whole match.
+  I / O set the start / end at the playhead, the arrow keys move it a second. Then save it as:
+  - **Full quality** - any length, starting exactly where you put it, with its size shown; it
+    shows in Clips, tagged TRIM.
+  - **Discord copy** or **Post to Discord** - up to 2 minutes, under Discord's 10 MB. The
+    editor says how sharp it will be (a 20-second part is 1080p, 90 seconds 360p).
+
+  The editor stays open while it works: its button fills up and says what's happening
+  ("Uploading 63%"), then how it went, so you can go straight on to the next part.
+- The clip menu's "Discord size" option and the match menu's "Copy file path" are gone; ticked
+  clips still have Copy for Discord.
+
 ## 1.2.9 - 2026-10-21
 
 - **Your rank keeps what you've played.** Deleting a recording no longer lowers your rank or
