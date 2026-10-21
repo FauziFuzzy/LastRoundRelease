@@ -4,6 +4,13 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.9 - 2026-10-21
+
+- **Your rank keeps what you've played.** Deleting a recording no longer lowers your rank or
+  your stats: Postmatch keeps a career of every match it has finished, and the first time it
+  rebuilds that history from its log - so matches you deleted before count again.
+- **Times are 12-hour:** a match started at 20:01 now shows 8:01 PM, everywhere in the dashboard.
+
 ## 1.2.8 - 2026-10-21
 
 - **See how far compressing has got.** A match that's getting ready after you play now shows
