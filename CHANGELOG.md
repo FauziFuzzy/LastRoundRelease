@@ -4,6 +4,12 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.2.8 - 2026-10-21
+
+- **See how far compressing has got.** A match that's getting ready after you play now shows
+  "Compressing 42%" with a bar that fills up, in the list and in the big preview, updated every
+  few seconds.
+
 ## 1.2.7 - 2026-10-21
 
 - **Fixed: "Getting it ready" ran past the thumbnail** in a narrow window. A small thumbnail
