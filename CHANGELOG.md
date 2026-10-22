@@ -4,6 +4,32 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.0 - 2026-10-22
+
+- **Team review, with scrims as folders.** Sign in, then create a squad (Postmatch+) or join one
+  with its invite code (free): up to 5 players and a coach. Anyone makes a scrim for the next
+  match: planned for later, playing now, or already played. After you play, press your seat on
+  the scrim's card, or drag one of your recent recordings onto it. Add my POV picks the
+  recording that fits the scrim's time, shows how it lines up with your teammates' POVs, and
+  warns you if it's another game, day or time. It makes a 720p copy on your graphics card and
+  uploads it while you keep playing. Every POV then plays in sync, side by side, with
+  timestamped notes tagged to the players they're for; For me lists the ones for you. You hear
+  live when a teammate's POV is in. The squad's captain gets a three-step setup (name, invite,
+  first scrim), and players get a short welcome when they join.
+- **Share links.** Any clip, or any part of a match from the trim editor, becomes a
+  postmatch.tv link that plays right in Discord and on phones. Post to Discord sends the link.
+  Free links last 30 days at up to 1080p.
+- **The Feed.** A new page in the app: post your clips, and like, comment on and follow other
+  players' posts. There's an Activity list, a search for players by name, and suggestions from
+  your Discord servers. Report and block are in each post's menu.
+- **Your profile** at postmatch.tv/u/you: picture, banner, bio and your share links. Edit it in
+  Settings > Profile, from a picture, GIF, video, clip or match.
+- **Postmatch+** ($4.99 a month or $47.88 a year, 14 days free): create your squad, share links
+  kept forever at up to 1440p (100 GB), an animated profile picture and banner, the PLUS badge,
+  and your own hotkey sounds. Hotkey sounds play only in your headset and are left out of the
+  recording. Manage or cancel it in Settings > Postmatch+.
+- Times in Team review are shown 12-hour, like the rest of the app.
+
 ## 1.2.10 - 2026-10-22
 
 - **Sign in with Google or Discord.** A new account screen, over a slowly drifting wall of game
