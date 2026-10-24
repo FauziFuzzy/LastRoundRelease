@@ -4,6 +4,20 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.2 - 2026-10-24
+
+- **Sharper POVs in Team review.** The copy Postmatch uploads for your team is now 1080p
+  instead of 720p, at a much higher quality: fire, smoke and grass no longer smear into
+  blocks. Making the copy still takes about a minute for a match; the upload is about two
+  and a half times bigger, so it takes longer on a slow connection. A very long session is
+  made a little smaller, so it always fits in one upload.
+- **Team review uploads stay in Team review.** Uploading your POV no longer shows as a
+  banner on Clips, a row on Matches or the gold dot on Clips; its progress shows on your
+  seat in Team review only.
+- **Tidier Team review player.** Tagging players with long names no longer runs into the
+  Add note button, and the time beside the bar no longer wraps or touches the playhead on
+  matches over an hour.
+
 ## 1.3.1 - 2026-10-24
 
 - **Play the part in Trim.** Play part plays your part from its start to its end, with the
