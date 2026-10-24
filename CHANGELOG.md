@@ -4,6 +4,21 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.1 - 2026-10-24
+
+- **Play the part in Trim.** Play part plays your part from its start to its end, with the
+  playhead following, straight from your recording. The small play buttons beside Set start
+  and Set end play just its first or last 3 seconds, so you can check where it starts and
+  stops. Space plays or pauses.
+- **Move along a long match in Trim.** Scrolling over the filmstrip now moves along the match
+  (Ctrl+scroll zooms, as scrolling did before), and a bar under it shows the whole match with
+  your part and a box for what the filmstrip shows: drag the box, or click anywhere on the bar.
+- **No more lag while moving through a match in Trim.** The pictures in the filmstrip and the
+  big picture now load once you stop moving, instead of for every step on the way, which could
+  make the whole PC stutter on a long match.
+- **A new logo.** The pixel P now has one leg, with the play button beside it, so it no longer
+  reads as an R. The sidebar logo reads POSTMATCH+ when you have Postmatch+.
+
 ## 1.3.0 - 2026-10-22
 
 - **Team review, with scrims as folders.** Sign in, then create a squad (Postmatch+) or join one
